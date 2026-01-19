@@ -18,7 +18,7 @@ class Args(Namespace):
     semester_id: int
     output: str
 
-API_URL = "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/{sid}/search/{sid}"
+API_URL = "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/{sid}/search/504"
 PAGE_SIZE = 1000
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
