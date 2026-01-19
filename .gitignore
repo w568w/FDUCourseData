@@ -1,6 +1,4 @@
-node_modules
-dist
-
-data
-config.json
-.vscode/
+.venv/
+__pycache__/
+*.pyc
+*.json
